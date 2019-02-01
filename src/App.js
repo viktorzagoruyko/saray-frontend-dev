@@ -1,16 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './style/app.scss';
 
-class App extends Component {
+import Home from './containers/Home/index.jsx';
+
+export default class App extends React.Component {
     render() {
         return (
             <div>
                 <h1>React Application</h1>
                 <p>Author: Viktor Zagoruyko</p>
+                <ul>
+                    <li>
+                        <Home />
+                    </li>
+                </ul>
             </div>
         );
     }
 }
-
-export default App;
