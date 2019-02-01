@@ -11,8 +11,6 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     
-    background-color: red;
-    
     & h1 {
         font-size: 3rem;
         font-weight: 700;
@@ -24,18 +22,12 @@ const Container = styled.div`
     }
 `;
 
-const Title = styled.h1`
-    color: red;
-`;
-
 export default class Home extends React.Component {
     render() {
         return (
             <Container>
-                <div>
-                    <Title>SARAY</Title>
-                    <h6>PHOTOSTUDIO</h6>
-                </div>
+                <h1>SARAY</h1>
+                <h6>PHOTOSTUDIO</h6>
             </Container>
         )
     }
