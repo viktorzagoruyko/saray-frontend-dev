@@ -11,6 +11,8 @@ const container = styled.div`
     justify-content: center;
     align-items: center;
     
+    background-color: red;
+    
     & h1 {
         font-size: 3rem;
         font-weight: 700;
