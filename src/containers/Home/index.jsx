@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const container = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     
     display: flex;
     flex-direction: column;
@@ -26,8 +26,10 @@ export default class Home extends React.Component {
     render() {
         return (
             <container>
-                <h1>SARAY</h1>
-                <h6>PHOTOSTUDIO</h6>
+                <div>
+                    <h1>SARAY</h1>
+                    <h6>PHOTOSTUDIO</h6>
+                </div>
             </container>
         )
     }
