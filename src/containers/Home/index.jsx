@@ -25,10 +25,10 @@ const container = styled.div`
 export default class Home extends React.Component {
     render() {
         return (
-            <div>
+            <container>
                 <h1>SARAY</h1>
                 <h6>PHOTOSTUDIO</h6>
-            </div>
+            </container>
         )
     }
 }
