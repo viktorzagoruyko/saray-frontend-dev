@@ -6,10 +6,6 @@ import Home from './containers/Home/index.jsx';
 
 export default class App extends React.Component {
     render() {
-        return (
-            <section>
-                <Home />
-            </section>
-        );
+        return <Home />
     }
 }
