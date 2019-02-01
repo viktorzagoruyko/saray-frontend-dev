@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-const container = styled.div`
+const Container = styled.div`
     width: 100%;
     height: 100vh;
     
@@ -24,15 +24,19 @@ const container = styled.div`
     }
 `;
 
+const Title = styled.h1`
+    color: red;
+`;
+
 export default class Home extends React.Component {
     render() {
         return (
-            <container>
+            <Container>
                 <div>
-                    <h1>SARAY</h1>
+                    <Title>SARAY</Title>
                     <h6>PHOTOSTUDIO</h6>
                 </div>
-            </container>
+            </Container>
         )
     }
 }
