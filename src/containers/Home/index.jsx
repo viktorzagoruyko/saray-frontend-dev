@@ -17,7 +17,7 @@ const Container = styled.div`
     }
     
     & h6 {
-        font-size: 1rem;
+        font-size: 1.35rem;
         font-weight: 300;
     }
 `;
