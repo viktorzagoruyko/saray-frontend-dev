@@ -72,12 +72,12 @@ export default class Home extends React.Component {
                 <svg width={'100%'} height={'100%'} viewBox={'0 0 325 140'} preserveAspectRatio="xMidYMid slice">
                     <defs>
                         <mask id={'overlay'}>
-                            <rect width={'100%'} height={'100%'} fill={#FDFDFD} />
+                            <rect width={'100%'} height={'100%'} fill={'#FDFDFD'} />
                             <text x={'50%'} y={'50%'} fontSize={'20px'} fontWeight={'700'} fontFamily={'Roboto, sans-serif'} textAnchor={'middle'}>SARAY</text>
                             <text x={'50%'} y={'56%'} fontSize={'9px'} fontWeight={'200'} fontFamily={'Roboto, sans-serif'} textAnchor={'middle'}>PHOTO STUDIO</text>
                         </mask>
                     </defs>
-                    <rect width={'100%'} height={'100%'} fill={#FDFDFD} mask={'url(#overlay)'} />
+                    <rect width={'100%'} height={'100%'} fill={'#FDFDFD'} mask={'url(#overlay)'} />
                 </svg>
             </Section>
         )
