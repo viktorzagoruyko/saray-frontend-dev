@@ -10,3 +10,19 @@ $white: #FDFDFD;
     color: $black;
     font-family: $main-font;
 }
+
+body {
+    width: auto;
+}
+
+.horizontalPage {
+    overflow-x: scroll;
+    
+    width: auto;
+}
+
+.horizontalSection {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+}
